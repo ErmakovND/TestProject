@@ -1,0 +1,4 @@
+include ':jlibrosa-1.0.2-SNAPSHOT-jar-with-dependencies'
+rootProject.name = 'TestProject'
+apply from: file("../node_modules/@react-native-community/cli-platform-android/native_modules.gradle"); applyNativeModulesSettingsGradle(settings)
+include ':app'
